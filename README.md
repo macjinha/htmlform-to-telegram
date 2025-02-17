@@ -6,8 +6,8 @@
 1. Создаем бота в Телеграме, получаем его токен
 2. Прописываем в скрипте
 3. Получаем id чата
-     // https://api.telegram.org/bot<YourBOTToken>/getUpdates
-     По этой ссылке вставляем свой токен
+   https://api.telegram.org/ bot ТОКЕН / getUpdates
+
      Получим что-то типа такого:
    {
     "update_id": ###,
