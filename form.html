@@ -1,0 +1,15 @@
+<script src="scripts/form.js"></script>
+<form id="contactForm" action="/scripts/send.php" method="post">
+    <!-- Поля формы -->
+    <label for="name">Ваше имя (обязательно)</label><br>
+    <input type="text" name="name" id="name"><br>
+    <label for="phone">Номер телефона (обязательно)</label><br>
+    <input type="tel" name="phone" id="phone"><br>
+    <label for="email">Электронная почта (необязательно)</label><br>
+    <input type="email" name="email" id="email"><br>
+    <label for="telegram">Короткое имя в Telegram (необязательно)</label><br>
+    <input type="text" name="telegram" id="telegram"><br>
+    <label for="message">Ваш вопрос (обязательно)</label><br>
+    <textarea name="message" id="message"></textarea><br>
+    <button type="submit">Отправить</button>
+</form>
